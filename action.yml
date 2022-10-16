@@ -12,5 +12,5 @@ runs:
 inputs:
     configFile:
         description: 'Path to Uncrustify configuration file'
-        default: '/uncrustify-default.cfg'
+        default: '/uncrustify.cfg'
         required: false
