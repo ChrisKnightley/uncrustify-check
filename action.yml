@@ -1,5 +1,5 @@
-name: 'uncrustify-check'
-author: 'mib <mib@mib.dev>'
+name: 'uncrustify-checker'
+author: 'dst'
 description: 'Checks if code is properly formatted using uncrustify'
 
 branding:
