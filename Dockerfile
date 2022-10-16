@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-RUN apk add git uncrustify 
+RUN apk add git uncrustify bash
 
 ADD ./entrypoint.sh /entrypoint.sh
 

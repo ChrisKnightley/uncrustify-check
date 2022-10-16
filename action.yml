@@ -14,3 +14,7 @@ inputs:
         description: 'Path to Uncrustify configuration file'
         default: '/uncrustify.cfg'
         required: false
+    checkedPaths:
+        description: 'Semicolon seperated paths which Uncrustify will check'
+        default: ''
+        required: false
