@@ -9,7 +9,7 @@ cd "$GITHUB_WORKSPACE"
 git config --global --add safe.directory "$GITHUB_WORKSPACE"
 
 FILE_SELECTOR="$(echo '*.cs' '*.c' '*.cpp' '*.h' '*.hpp' '*.m' '*.mm' '*.M')"
-FILES_CHANGED="$(git diff --name-only --diff-filter=AM -- $FILE_SELECTOR)"
+FILES_CHANGED="$(git diff --name-only --diff-filter= -- $FILE_SELECTOR)"
 
 PATHS=$(echo $INPUT_CHECKEDPATHS | tr ";" "\n")
 
